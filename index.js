@@ -1,0 +1,7 @@
+module.exports = require('./json')
+module.exports.json = require('./json')
+module.exports.redirect = require('./redirect')
+module.exports.text = require('./text')
+module.exports.html = require('./html')
+module.exports.error = require('./error')
+module.exports.response = require('./response')
